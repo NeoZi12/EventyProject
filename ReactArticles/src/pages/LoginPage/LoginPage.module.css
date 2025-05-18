@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Split each form into half of the screen */
+.half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Optional: alternate background for contrast */
+.leftPane {
+  border-right: 2px solid black;
+}
+
+.rightPane {
+  border-left: 2px solid black;
+}

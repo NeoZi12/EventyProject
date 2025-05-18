@@ -1,0 +1,101 @@
+.homeHeader {
+  background-color: rgb(120, 252, 252);
+  font-size: 2em;
+  text-align: center;
+  padding: 2rem;
+}
+
+.homeSearch {
+  background-color: rgb(59, 59, 226);
+  padding: 2rem;
+  text-align: center;
+}
+
+.featuredEvents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  border: 2px solid black;
+  margin: auto;
+  padding: 3em;
+  align-items: center;
+}
+
+.mapAndFilter {
+  display: flex;
+  min-height: 50rem; /* you can adjust this */
+}
+
+.filters {
+  width: 30%;
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+.map {
+  width: 70%;
+  background-color: greenyellow;
+  padding: 2rem;
+}
+
+.eventCard {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+  width: 70%;
+}
+
+.eventCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.eventCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.eventCard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.eventCard p {
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.5;
+}
+.createButton {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.createButton:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.createButton:active {
+  transform: translateY(0);
+  background-color: #3730a3;
+}

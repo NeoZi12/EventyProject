@@ -1,0 +1,12 @@
+.eventContainer {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  text-align: left;
+  padding: 2rem;
+}
+
+.eventTitle {
+  text-decoration: underline;
+}
